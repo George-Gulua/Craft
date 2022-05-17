@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Craft</string>
+    <string name="ic_logotype">logotype</string>
+    <string name="ic_email">icon_email</string>
+    <string name="ic_lock">icon_lock</string>
+    <string name="ic_camera">ic_camera</string>
+    <string name="ic_cross">ic_cross</string>
+    <string name="ic_heart">ic_heart</string>
+    <string name="ic_home">ic_home</string>
+    <string name="ic_settings">ic_settings</string>
+    <string name="ic_shopping">ic_shopping</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="login">Войти</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="registration">Регистрация</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="rep_password">Повторите пароль</string>
+    <string name="ic_back">Назад</string>
+    <string name="choice">Выбор клуба</string>
+    <string name="favourites">Избранное</string>
+    <string name="icon_heart">Кнопка сердце</string>
+    <string name="icon_home">Кнопка дом</string>
+    <string name="icon_profil">Кнопка профиль</string>
+    <string name="icon_check">icon_check</string>
+    <string name="scroll_choice">Скрол выбора</string>
+    <string name="vyzanie">Клуб вязания и шитья</string>
+    <string name="kylinariy">Клуб кулинарии</string>
+    <string name="gonchar">Клуб гончарного мастерства</string>
+    <string name="chitateli">Клуб читателей</string>
+    <string name="risovaniy">Клуб рисования</string>
+    <string name="kvilling">Квиллинг</string>
+    <string name="sadavod">Клуб садоводов</string>
+    <string name="skrapbuking">Скрапбукинг</string>
+    <string name="bronirovat">Бронировать</string>
+    <string name="bron">Бронь</string>
+    <string name="data">Выбрать дату</string>
+    <string name="history">История броней</string>
+    <string name="settings">Настройки</string>
+    <string name="change_password">Смена пароля</string>
+    <string name="old_password">Введите старый пароль</string>
+    <string name="new_password">Введите новый пароль</string>
+    <string name="again">Еще раз</string>
+    <string name="save">Сохранить</string>
+    <string name="time">Время</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
