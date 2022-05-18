@@ -4,19 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.MainActivity"
     android:background="@color/main_color">
 
     <ImageView
+        android:id="@+id/back3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:onClick="backFinal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.099"
+        app:srcCompat="@drawable/ic_cross" />
+
+    <ImageView
         android:id="@+id/logotype"
-        android:layout_width="319dp"
-        android:layout_height="307dp"
+        android:layout_width="271dp"
+        android:layout_height="231dp"
         android:contentDescription="@string/ic_logotype"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.162"
+        app:layout_constraintVertical_bias="0.303"
         app:srcCompat="@drawable/logotype" />
 
     <TextView
@@ -28,24 +42,9 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.707" />
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bottom_navigation"
-        style="@style/Widget.MaterialComponents.BottomNavigationView.Colored"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/input_color"
-        app:labelVisibilityMode="labeled"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:menu="@menu/bottom_navigation_menu"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintVertical_bias="0.845" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

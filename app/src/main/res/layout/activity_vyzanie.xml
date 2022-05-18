@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.MainActivity"
     android:background="@color/main_color">
 
     <TextView
@@ -15,21 +14,24 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.835"
+        app:layout_constraintHorizontal_bias="0.847"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.027" />
+        app:layout_constraintVertical_bias="0.085" />
 
     <ImageView
         android:id="@+id/Back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:onClick="backDescription"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.043"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.021"
+        app:layout_constraintVertical_bias="0.084"
         app:srcCompat="@drawable/ic_cross" />
 
     <Button
@@ -42,34 +44,14 @@
         android:textAllCaps="false"
         android:textColor="@color/black"
         android:textSize="20sp"
+        android:onClick="goBron"
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.918" />
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="100dp"
-        android:layout_height="65dp"
-        android:background="@drawable/rounded_edittext"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.916"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.918">
-
-        <ImageView
-            android:id="@+id/Like"
-            android:layout_width="79dp"
-            android:layout_height="41dp"
-            app:srcCompat="@drawable/ic_heart"
-            tools:layout_editor_absoluteX="11dp"
-            tools:layout_editor_absoluteY="12dp" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        app:layout_constraintVertical_bias="0.912" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -97,13 +79,13 @@
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="355dp"
-        android:layout_height="238dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="413dp"
+        android:layout_height="191dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.18"
+        app:layout_constraintVertical_bias="0.764"
         app:srcCompat="@drawable/club_vyz" />
 
 

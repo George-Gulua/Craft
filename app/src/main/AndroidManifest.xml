@@ -28,7 +28,7 @@
             android:name=".activities.SettingsActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.RegistrationActivity"
+            android:name=".mvvm.views.RegistrationActivity"
             android:exported="false" />
         <activity
             android:name=".mvvm.views.LoginActivity"
@@ -39,10 +39,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".ui.MainActivity"
-            android:exported="false">
-        </activity>
+        <activity android:name=".mvvm.views.AppActivity" />
     </application>
 
 </manifest>

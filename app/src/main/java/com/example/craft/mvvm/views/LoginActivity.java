@@ -2,6 +2,7 @@ package com.example.craft.mvvm.views;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -11,7 +12,6 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.craft.R;
 import com.example.craft.mvvm.viewModel.LoginViewModel;
-import com.example.craft.ui.MainActivity;
 
 
 public class LoginActivity extends AppCompatActivity {
@@ -43,7 +43,7 @@ public class LoginActivity extends AppCompatActivity {
 
         loginVM.getAccess().observe(this, access -> {
             if (access) {
-                startActivity(new Intent(this, MainActivity.class));
+                startActivity(new Intent(this, AppActivity.class));
                 Toast.makeText(this, "Welcome, " + loginVM.getUserNickname() + '!', Toast.LENGTH_LONG).show();
             } else {
                 Toast.makeText(this, "This user wasn't found!", Toast.LENGTH_LONG).show();
@@ -62,5 +62,8 @@ public class LoginActivity extends AppCompatActivity {
         super.onStop();
         loginEnter.setText("");
         passwordEnter.setText("");
+    }
+    public void reg(View view) {
+        startActivity(new Intent(this, RegistrationActivity.class));
     }
 }
