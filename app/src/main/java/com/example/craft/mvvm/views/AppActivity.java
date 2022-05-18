@@ -62,4 +62,8 @@ public class AppActivity extends AppCompatActivity {
     public void goSettings(View view) {
         startActivity(new Intent(this, SettingsActivity.class));
     }
+
+    public void backProfile(View view) {
+        startActivity(new Intent(this, LoginActivity.class));
+    }
 }

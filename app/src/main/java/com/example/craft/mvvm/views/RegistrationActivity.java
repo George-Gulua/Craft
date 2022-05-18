@@ -10,6 +10,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.craft.R;
+import com.example.craft.activities.BronActivity;
+import com.example.craft.activities.SettingsActivity;
 import com.example.craft.mvvm.viewModel.CreateViewModel;
 
 public class RegistrationActivity extends AppCompatActivity {
@@ -64,6 +66,8 @@ public class RegistrationActivity extends AppCompatActivity {
             String password = registerPassword.getText().toString();
             createVM.creationAccount(name, login, password);
         });
+
+
 
     }
 
